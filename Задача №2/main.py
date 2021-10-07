@@ -12,3 +12,4 @@ def returning_a_hash_of_strings(path_to_file):
 if __name__ == '__main__':
     for line in returning_a_hash_of_strings('new_document.txt'):
         print(line)
+         
