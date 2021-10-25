@@ -32,5 +32,4 @@ class CountriesIterate:
 with open('country_links.txt', 'a', encoding='UTF-8') as country_links_file:
     for country_link in CountriesIterate('countries.json'):
         country_links_file.write(f'{country_link}')
-
  
